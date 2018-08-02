@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://pokemonquest.pokemon.com/assets/common/bg-squares.png);
+  font-family: 'Dosis', sans-serif!important;
+  font-weight: 600;
+}
+.c-title{
+	color: #ff5d64;
+}
+button,input{
+	font-family: 'Dosis', sans-serif!important;	
+}
+button{
+	font-weight: 800;
+	text-transform: uppercase!important;
+}
+.bg-primary {
+    background-color: #ff5d64!important;
+}
+.card {
+	border-bottom: solid 7px #f8eecb;
+	border-left: solid 2px #f8eecb;
+	border-right: solid 2px #f8eecb;
+	border-radius: 16px;
+	box-shadow: 0px 3px 0px 0px #e5cd5a;
+}
+.btn,.btn:focus{
+	background-color: #ff5d64;
+	color: #FFF;
+	box-shadow: 0 7px 0 #eb2d35,0 10px 0 #0000001a;
+	margin: 1px;
+	text-transform: uppercase;
+}
+.btn:active{
+	-webkit-transition: none;
+	transition: none;
+	-webkit-transform: scale(0.9) translate(0, 7px);
+	transform: scale(0.9) translate(0, 7px);
+	-webkit-box-shadow: 0 3px 0 #0000001a;
+	box-shadow: 0 3px 0 #0000001a;
+}
+.btn-primary{
+	border-color: transparent;
+}
+label{
+	margin-bottom: 0;
+	color: #ff5d64;
+}
+.form-control,.form-control:focus{
+	border: 1px solid #fbe082;
+	color:#396aac;
+}
+.navbar{
+	background: url(https://pokemonquest.pokemon.com/assets/news/header-bg.png);
+	background-size: auto 100%;
+	height: 100px;
+}
+.info-example{
+  	border: solid 4px #756f94;
+  	border-radius: 11px;
+	background: #756f94;
+	font-weight: 800;
+}
+.info-example img{
+	width: 50px;
+}
+.badge-pill {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 7px 5px 5px 7px;
+}
+.badge-primary {
+    background-color: #f8991d;
+}
